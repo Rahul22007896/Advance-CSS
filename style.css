@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: italic;
+    color: #ff0000;
+}
+
+nav ul {
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.auth-buttons {
+    display: flex;
+}
+
+.auth-buttons button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.auth-buttons .sign-in {
+    background-color: #ffffff;
+    color: #ea4c89;
+    border: 1px solid #ea4c89;
+}
+
+.auth-buttons .sign-up {
+    background-color: #ea4c89;
+    color: #ffffff;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ff0000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.hero h1 {
+    margin: 0 0 10px;
+    font-size: 36px;
+}
+
+.hero p {
+    margin: 0;
+    font-size: 18px;
+    color: #666;
+}
+nav ul {
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.shots {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.shot {
+    margin: 10px;
+}
+
+.shot img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
