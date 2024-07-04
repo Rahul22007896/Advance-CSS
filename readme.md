@@ -1,4 +1,14 @@
+## OBJECTIVE:
+To Create a simplified clone of Dribbble (https://dribbble.com/) landing page.
+
+## DESCRIPTION:
+Created a simplified clone of Dribble Landing Page With the use of HTML and CSS
+
 ## HTML CODE:
+Style.css
+```c
+
+```
 Advance.html
 ```c
 <!DOCTYPE html>
